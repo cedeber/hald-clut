@@ -1,5 +1,5 @@
 # Needs ImageMagick + OptiPNG
-# Convert original HaldCLUT to smaller HardCLUT in order to use them in web applications.
+# Convert original HaldCLUT to smaller HaldCLUT in order to use them in web applications.
 
 IFS=$'\n'
 for file in $(find HaldClut -name \*.png -type f); do
